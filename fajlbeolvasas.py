@@ -20,3 +20,15 @@ with open("adatok/allatok.txt", "r", encoding="utf-8") as forrasfajl:
 
 for allat in allatok:
     print(allat)
+
+for allat in allatok:
+    if type(allat) == Kutya:
+        allat.ugat()
+    elif type(allat) == Macska:
+        allat.dorombol()
+    elif type(allat) == Madar:
+        allat.csiripel()
+    elif type(allat) == Keteltu:
+        allat.brekeg()
+    elif type(allat) == Hullo:
+        allat.napozik()
