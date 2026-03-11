@@ -8,3 +8,4 @@ class Allat:
 
     def __str__(self):
         return f"{self.nev} {self.faj} {self.eletkor} éves, élőhelye {self.elohely} {self.meret} méretű"
+    
